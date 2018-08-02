@@ -2,6 +2,7 @@ package io.socket.bio.sync.server;
 
 import util.Calculator;
 
+import javax.script.ScriptException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -36,6 +37,8 @@ public class ServerHandler implements Runnable {
                 out.println(result);
             }
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ScriptException e) {
             e.printStackTrace();
         } finally {
             if(socket != null) {

@@ -4,7 +4,7 @@ import io.socket.bio.sync.client.ClientHandler;
 
 import java.util.Random;
 
-public class ClientMain {
+public class MainClient {
 
     public static void main(String[] args) {
         char operators[] = {'+', '-', '*', '/'};

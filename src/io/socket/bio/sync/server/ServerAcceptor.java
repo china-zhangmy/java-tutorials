@@ -33,7 +33,7 @@ public final class ServerAcceptor {
                 //如果没有客户端接入，将阻塞在accept操作上。
                 socket = serverSocket.accept();
                 //当有新的客户端接入时，会创建一个新的线程处理这条Socket链路
-                System.out.println("新的客户端接入, 启动新的Socket： " + socket);
+                System.out.println("新的客户端接入, 启动新的" + socket + ", instance: " + socket.hashCode());
                 new Thread(new ServerHandler(socket)).start();
             }
         } finally {
