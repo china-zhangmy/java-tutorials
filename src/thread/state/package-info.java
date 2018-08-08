@@ -1,4 +1,6 @@
 /**
+ * https://blog.csdn.net/u011784767/article/details/51329709
+ *
  * Java线程总共有6中状态（Thread.State）：
  * <p>
  * (1)New (新创建)
