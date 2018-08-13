@@ -20,5 +20,9 @@
  * (一) 中断非阻塞线程 - InterruptNonBlockedThread
  * (二) 中断阻塞线程 - InterruptBlockedThread
  * (三) 不可中断线程 - NonInterruptibleThread
+ * <p>
+ * https://blog.csdn.net/qpc908694753/article/details/61414495
+ * <p>
+ * 关于在catch块中中断线程 - CatchAndReinterruptionThread
  */
 package thread.interruption;
