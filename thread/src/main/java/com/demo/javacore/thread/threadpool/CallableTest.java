@@ -50,6 +50,8 @@ public class CallableTest {
                 e.printStackTrace();
             }
         }
+
+        pool.shutdown();
     }
 
 }
