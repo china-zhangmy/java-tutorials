@@ -9,8 +9,12 @@ package com.demo.javacore.thread._volatile;
  * 这段代码创建20个线程对count自加操作，但最后count不是200，每次运行的结果都不一样，问题就在count++语句。用javap反编译就可以发现
  * 该语句由4条字节码指令构成，从字节码层面就很容易分析出原因：执行取值指令时，可以保证count是最新，但当执行iadd指令时，
  * 其他线程可能已经更新count了，而现在操作的count已经过期了，所以可能把较小的count同步回主内存中。
+ *
+ * 限制条件：当且仅当满足以下所有条件时，才应该使用volatile变量
+ * 1、对变量的写入操作不依赖变量的当前值，或者你能确保只有单个线程更新变量的值。
+ * 2、该变量没有包含在具有其他变量的不变式中。
  */
-public class VolatileTest {
+public class UnsafeVolatileTest {
 
     private static volatile int count = 0;
 
