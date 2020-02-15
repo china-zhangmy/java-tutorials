@@ -1,6 +1,6 @@
 package com.demo.javacore.io.socket.nio.server;
 
-import com.demo.javacore.thread.util.Calculator;
+import com.demo.javacore.io.util.Calculator;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

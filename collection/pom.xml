@@ -9,10 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>javacore-thread</artifactId>
-    <packaging>jar</packaging>
-
-    <name>Java Core - Thread</name>
+    <artifactId>javacore-collection</artifactId>
+    <name>Java Core - Collection</name>
 
 
 </project>

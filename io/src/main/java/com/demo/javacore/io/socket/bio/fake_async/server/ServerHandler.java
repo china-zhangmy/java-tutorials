@@ -1,6 +1,6 @@
 package com.demo.javacore.io.socket.bio.fake_async.server;
 
-import com.demo.javacore.thread.util.Calculator;
+import com.demo.javacore.io.util.Calculator;
 
 import javax.script.ScriptException;
 import java.io.BufferedReader;

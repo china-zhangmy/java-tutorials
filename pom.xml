@@ -15,6 +15,7 @@
         <module>io</module>
         <module>proxy</module>
         <module>thread</module>
+        <module>collection</module>
     </modules>
 
     <properties>

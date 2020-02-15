@@ -1,4 +1,4 @@
-package com.demo.javacore.thread.util;
+package com.demo.javacore.io.util;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
