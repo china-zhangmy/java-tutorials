@@ -4,26 +4,31 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.demo.javacore</groupId>
-    <artifactId>javacore-examples</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>org.twinsdaddy.javatutorials</groupId>
+    <artifactId>java-tutorials</artifactId>
+    <version>JDK8</version>
     <packaging>pom</packaging>
 
-    <name>Java Core Examples</name>
-
-    <modules>
-        <module>io</module>
-        <module>proxy</module>
-        <module>thread</module>
-        <module>collection</module>
-    </modules>
+    <name>Java Tutorials</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <java.version>8</java.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <modules>
+        <module>0_exercises</module>
+        <module>1_object-oriented_programming_concepts</module>
+        <module>2_language_basics</module>
+        <module>3_classes_and_objects</module>
+        <module>4_annotations</module>
+        <module>5_interfaces_and_inheritance</module>
+        <module>6_numbers_and_strings</module>
+        <module>7_generics</module>
+        <module>8_packages</module>
+    </modules>
 
 </project>
