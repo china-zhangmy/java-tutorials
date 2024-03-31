@@ -20,15 +20,15 @@
     </properties>
 
     <modules>
-        <module>0_exercises</module>
-        <module>1_object-oriented_programming_concepts</module>
-        <module>2_language_basics</module>
-        <module>3_classes_and_objects</module>
-        <module>4_annotations</module>
-        <module>5_interfaces_and_inheritance</module>
-        <module>6_numbers_and_strings</module>
-        <module>7_generics</module>
-        <module>8_packages</module>
+        <module>00_exercises</module>
+        <module>01_object-oriented_programming_concepts</module>
+        <module>02_language_basics</module>
+        <module>03_classes_and_objects</module>
+        <module>04_annotations</module>
+        <module>05_interfaces_and_inheritance</module>
+        <module>06_numbers_and_strings</module>
+        <module>07_generics</module>
+        <module>08_packages</module>
     </modules>
 
 </project>
