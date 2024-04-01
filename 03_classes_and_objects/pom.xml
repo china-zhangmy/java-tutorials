@@ -16,7 +16,8 @@
         <module>04_nested_classes</module>
     </modules>
 
-    <artifactId>3_classes_and_objects</artifactId>
+    <artifactId>03_classes_and_objects</artifactId>
+    <name>03: Classes and Objects</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

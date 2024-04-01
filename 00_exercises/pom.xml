@@ -9,10 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
-    <version>JDK8</version>
 
-    <artifactId>0_exercises</artifactId>
-    <name>0: Java Tutorials Exercises</name>
+    <artifactId>00_exercises</artifactId>
+    <name>00: Exercises</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

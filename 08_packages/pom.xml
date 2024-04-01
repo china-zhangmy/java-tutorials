@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>8_packages</artifactId>
-    <version>JDK8</version>
+    <artifactId>08_packages</artifactId>
+    <name>08: Packages</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

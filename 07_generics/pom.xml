@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>7_generics</artifactId>
-    <version>JDK8</version>
+    <artifactId>07_generics</artifactId>
+    <name>07: Generics</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

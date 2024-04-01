@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>2_language_basics</artifactId>
-    <version>JDK8</version>
+    <artifactId>02_language_basics</artifactId>
+    <name>02: Language Basics</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

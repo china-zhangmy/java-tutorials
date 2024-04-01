@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>0_exercises</artifactId>
+        <artifactId>00_exercises</artifactId>
         <groupId>org.twinsdaddy.javatutorials</groupId>
         <version>JDK8</version>
     </parent>
@@ -12,7 +12,7 @@
     <artifactId>io-exercises</artifactId>
     <packaging>jar</packaging>
 
-    <name>0: Java Tutorials Exercises - IO</name>
+    <name>00: Exercises - IO</name>
 
 
 </project>

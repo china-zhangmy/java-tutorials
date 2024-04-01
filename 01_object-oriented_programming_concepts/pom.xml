@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>1_object-oriented_programming_concepts</artifactId>
-    <version>JDK8</version>
+    <artifactId>01_object-oriented_programming_concepts</artifactId>
+    <name>01: Object-Oriented Programming Concepts</name>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
