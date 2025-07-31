@@ -1,8 +1,5 @@
 package org.twinsdaddy.javatutorials.classes_and_objects.nested_classes.$00_concepts.$04_inner_class_and_nested_class_example;
 
-/**
- * @author zhangmingyu
- */
 public class OuterClass {
 
     String outerField = "Outer Field";

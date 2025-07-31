@@ -17,7 +17,7 @@ public class OuterClass {
 
     /**
      * An instance of InnerClass can exist only within an instance of OuterClass and has direct access to the methods and fields of its enclosing instance.
-     *
+     * <p>
      * To instantiate an inner class, you must first instantiate the outer class. Then, create the inner object within the outer object with this syntax:
      *
      * @param args
